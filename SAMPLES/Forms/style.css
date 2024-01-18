@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, red, blue);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: linear-gradient(180deg, #345443, #202e20);
+  padding: 100px;
+  border-radius: 20px;
+  color: white;
+  gap: 20px;
+}
+input,
+select {
+  padding: 20px;
+}
+.radio {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.radio div {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+}
