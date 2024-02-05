@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+.content h1 :nth-child(1) {
+  background: url(Assets/Rectangle3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 90px;
+}
+.content h1 :nth-child(2) {
+  background: url(Assets/Rectangle6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 40px;
+}
+.images img {
+  width: 10%;
+}
+.images :nth-child(4) {
+  width: 15%;
+}
+.content2 {
+  position: relative;
+}
+.content2 .vector {
+  z-index: -1;
+  position: absolute;
+  top: 10px;
+  left: 110px;
+}
+.content3 {
+  position: relative;
+}
+.content3 .vector {
+  z-index: -1;
+  position: absolute;
+  top: 15px;
+  left: 130px;
+}
+.vector img {
+  width: 40%;
+}
+.text {
+  z-index: -1;
+  background: linear-gradient(
+    1.32deg,
+    #e0c340 0.13%,
+    #dfc23e 3.97%,
+    #e1c441 7.2%,
+    #e3c743 10.13%,
+    #e4c542 12.98%,
+    #e6c744 15.99%,
+    #e7c845 19.52%,
+    #e5c643 23.96%,
+    #e6c945 30.43%,
+    #e3c743 36.49%,
+    #e9ca48 42.49%,
+    #edce49 49.35%,
+    #f0d44c 55.42%,
+    #f4d84f 61.43%,
+    #f6da52 65.74%,
+    #f7db53 72.23%,
+    #f9dd55 77.43%,
+    #f9df56 83.84%,
+    #fae157 91.52%,
+    #f9df56 97.87%
+  );
+}
+.image {
+  position: relative;
+}
+.image :nth-child(2) {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  width: 6%;
+}
+.image :nth-child(3) {
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  width: 8%;
+}
+/* .circle1 {
+  background: url(/Assets/Ellipse1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.circle2 {
+  background: url(/Assets/Ellipse5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 70%;
+}
+.circle3 {
+  background: url(/Assets/Ellipse6.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid red;
+  width: 50%;
+} */
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}

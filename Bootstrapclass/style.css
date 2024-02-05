@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content h1 :nth-child(1) {
+  background: url(Assets/Rectangle3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 90px;
+}
+.content h1 :nth-child(2) {
+  background: url(Assets/Rectangle6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 40px;
+}
+.brandImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: multiply;
+  gap: auto;
+  padding-bottom: 50px;
+  /* background-color: rgba(255, 255, 0, 0.5);  */
+
+}
+.bg-custom{
+  background-color: #EBD96B;
+}
+.bg-custom{
+  background-color: #EBD96B;
+}
+.content3 h1 :nth-child(2) {
+  background: url(Assets/Rectangle6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 40px;
+}
